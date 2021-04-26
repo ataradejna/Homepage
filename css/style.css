@@ -1,0 +1,130 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5cm;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit
+}
+
+.body {
+    background-color: rosybrown;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.navigation {
+    margin: 20px;
+    background-color: rgb(240, 210, 200);
+    width: 100%;
+    border-style: solid;
+    border-color: rgb(31, 19, 19);
+    border-radius: 15px;
+}
+
+.list {
+    list-style-type: none;
+    text-align: center;
+    margin: 25px;
+}
+
+.listItem {
+    display: inline;
+    padding: 15px;
+}
+
+.navigationLink {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+}
+
+.navigationLink:hover {
+    color: white;
+}
+
+.firstHeader {
+    color: rgb(31, 19, 19);
+    font-size: 50px;
+}
+
+.secondHeader {
+    color: rgb(31, 19, 19);
+}
+
+.image {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.paragraph {
+    text-align: left;
+}
+
+.element {
+    color: rgb(3, 3, 41);
+    font-weight: bolder;
+}
+
+.button {
+    background-color: white;
+    border: none;
+    color: rgb(31, 19, 19);
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.backgroundButton {
+    background-color: white;
+    border: none;
+    color: rgb(31, 19, 19);
+    border-radius: 15px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.secondBackground {
+    background-color: rgb(216, 151, 151);
+}
+
+.table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.tableCell {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tableHeader {
+    background-color: rgb(34, 30, 25);
+    color: linen;
+}
+
+.tableRow:nth-child(odd) {
+    background-color: rgb(212, 170, 170);
+}
+
+.tableRow:hover {
+    background-color: rgb(145, 108, 108);
+}
+
+.caption {
+    text-align: left;
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+
+.tableContainer {
+    overflow-x: auto;
+}
