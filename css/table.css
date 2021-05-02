@@ -25,10 +25,10 @@
     vertical-align: middle;
 }
 
-.table__row:hover {
-    background-color: rgb(145, 108, 108);
+.table__row:nth-child(odd) {
+    background-color: rgb(212, 170, 170);
 }
 
-.table__row:nth-child(odd) {
-     background-color: rgb(212, 170, 170);
+.table__row:hover {
+    background-color: rgb(145, 108, 108);
 }
