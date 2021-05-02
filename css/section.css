@@ -1,0 +1,17 @@
+.section__paragraph {
+    text-align: left;
+}
+
+.section__header {
+    color: rgb(31, 19, 19);
+    font-size: 50px;
+}
+
+.section__header--second {
+    color: rgb(31, 19, 19);
+}
+
+.section__element {
+    color: rgb(3, 3, 41);
+    font-weight: bolder;
+}

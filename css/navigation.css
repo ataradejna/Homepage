@@ -1,0 +1,30 @@
+.navigation {
+    margin: 0 auto;
+    background-color: rgb(240, 210, 200);
+    width: 100%;
+    border-style: solid;
+    border-color: rgb(31, 19, 19);
+    border-radius: 15px;
+}
+
+.navigation__list {
+    list-style-type: none;
+    text-align: center;
+    margin: 25px;
+}
+
+.navigation__item {
+    display: inline;
+    padding: 15px;
+}
+
+.navigation__link {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+}
+
+.navigationLink:hover {
+    color: white;
+}

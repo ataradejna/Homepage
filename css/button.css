@@ -1,0 +1,16 @@
+.button {
+    background-color: white;
+    border: none;
+    color: rgb(31, 19, 19);
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.button--backgroundButton {
+    background-color: white;
+    border: none;
+    color: rgb(31, 19, 19);
+    border-radius: 15px;
+    font-size: 15px;
+    margin-top: 20px;
+}
